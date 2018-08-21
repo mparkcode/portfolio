@@ -158,4 +158,6 @@
 @media only screen and (max-width: 600px) {
     .title-animation{font-size: 12px;}
     .parallax{background-attachment: scroll}
+    .info-icon{margin-bottom: 10px;}
+    .profile-img{margin-top: 20px;}
 }
