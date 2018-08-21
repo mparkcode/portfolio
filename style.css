@@ -48,7 +48,7 @@
 
 /*------------------------------------------------------------------ End Navbar css*/
 
-
+/*------------------------------------------------------------------ css for title image*/
 .photo1{
     background-image: url('./assets/images/dark-computer.jpeg');
 }
@@ -91,6 +91,10 @@
     animation: slidein 7s;
 }
 
+/*------------------------------------------------------------------ end css for title image*/
+
+
+/*------------------------------------------------------------------ css for about area*/
 .content-area{
     background-image: linear-gradient(to right, #ffffff , #D3D3D3);
 }
@@ -101,8 +105,30 @@
     
 }
 
+.info-segment{
+    margin-top: 50px;
+}
+
 .info-icon{
     font-size: 30px;
+}
+
+.content-heading{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.content-section{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+}
+
+.skill-list{
+    list-style: none;
+}
+
+.skill-list li:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .profile-img{
@@ -131,4 +157,5 @@
 
 @media only screen and (max-width: 600px) {
     .title-animation{font-size: 12px;}
+    .parallax{background-attachment: scroll}
 }
