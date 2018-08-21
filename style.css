@@ -50,7 +50,7 @@
 
 
 .photo1{
-    background-image: url('../images/dark-computer.jpeg');
+    background-image: url('./assets/images/dark-computer.jpeg');
 }
 
 .parallax{
