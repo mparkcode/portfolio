@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------Navbar css*/
+
+.navbar{
+    min-height: 60px !important;
+    
+}
+
+.navbar-brand {
+    line-height: 30px !important;
+}
+
+.navbar-default {
+    background-color: #000 !important;
+    border: None !important;
+}
+
+.nav-logo{
+    color: #fff !important;
+    font-size: 25px !important;
+    font-family: 'Finger Paint', cursive;
+}
+
+
+.logo{
+    color: white;
+    font-size: 100px;
+    font-family: 'Finger Paint', cursive;
+    -webkit-text-stroke: 1px black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+    letter-spacing: .2rem;
+    line-height: 30px !important;
+}
+
+.navbar-right li {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-right:hover > li {
+    opacity: 0.5;
+}
+
+.navbar-right > li:hover {
+    opacity: 1;
+}
+
+/*------------------------------------------------------------------ End Navbar css*/
+
+
+.photo1{
+    background-image: url('/assets/images/dark-computer.jpeg');
+}
+
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title-effect{
+    position:absolute;
+    top: 25vh;
+    width:100%;
+    text-align: center;
+}
+
+.title-animation {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+.name { 
+  animation: showup 7s;
+}
+
+.title {
+  animation: reveal 7s;
+}
+
+.title span {
+    animation: slidein 7s;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto}
+    80% {opacity:1;}
+}
