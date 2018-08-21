@@ -91,6 +91,24 @@
     animation: slidein 7s;
 }
 
+.content-area{
+    background-image: linear-gradient(to right, #ffffff , #D3D3D3);
+}
+
+.content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.info-icon{
+    font-size: 30px;
+}
+
+.profile-img{
+    width: 100%;
+}
+
 @keyframes showup {
     0% {opacity:0;}
     20% {opacity:1;}
@@ -109,4 +127,8 @@
     20% {opacity:1;width:0px;}
     30% {width:auto}
     80% {opacity:1;}
+}
+
+@media only screen and (max-width: 600px) {
+    .title-animation{font-size: 12px;}
 }
