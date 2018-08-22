@@ -154,7 +154,7 @@
 }
 
 .portfolio-title{
-    top: 20vh !important;
+    top: 15vh !important;
     margin-bottom: 10px;
 }
 
@@ -275,8 +275,8 @@ textarea{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
 }
 
-.social-media-area a:hover{
-    color: #ffffff;
+.social-media-area a:hover, .social-media-area a:visited{
+    color: #ffffff !important;
 }
 
 
