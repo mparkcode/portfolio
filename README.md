@@ -1,18 +1,11 @@
+#Michael Park Portfolio
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+User Centric Frontend Development Project - Code Institute
 
+This is a static portfolio website whose intended use is for prospective employers to view projects and information relating to myself.  
+To accomplish this the portfolio section of the site links to three projects.  
+The about section lists my tech skills and work history, as well as having a downloadable version of my cv.
+The contact section links to my linkedIn and github. The other social media links and email form have no functionality at this time.
 
-Hi there! Welcome to Cloud9 IDE!
+##UX
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
