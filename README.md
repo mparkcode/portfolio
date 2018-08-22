@@ -1,4 +1,4 @@
-#Michael Park Portfolio
+# Michael Park Portfolio
 
 User Centric Frontend Development Project - Code Institute
 
@@ -7,5 +7,5 @@ To accomplish this the portfolio section of the site links to three projects.
 The about section lists my tech skills and work history, as well as having a downloadable version of my cv.
 The contact section links to my linkedIn and github. The other social media links and email form have no functionality at this time.
 
-##UX
+## UX
 
