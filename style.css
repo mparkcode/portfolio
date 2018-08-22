@@ -137,6 +137,14 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+.info-segment a *{
+    color: #000000;
+}
+
+.info-segment a:hover *{
+    text-decoration: underline;
+}
+
 /*------------------------------------------------------------------end css for about area*/
 
 /*------------------------------------------------------------------css for portfolio area*/
@@ -146,7 +154,7 @@
 }
 
 .portfolio-title{
-    top: 15vh !important;
+    top: 20vh !important;
     margin-bottom: 10px;
 }
 

@@ -33,13 +33,12 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about.html">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">portfolio</a></li>
-                        <li><a href="#">contact</a></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
                     </ul>
                 </div>
             </div>    
@@ -48,7 +47,7 @@
 
 <!----------------Main title area-->
 
-    <div class="photo1 parallax">
+    <div id="home" class="photo1 parallax">
         <div class="title-effect">
             <div class="title-animation name">
                 Michael Park 
@@ -61,7 +60,7 @@
 
 <!----------------About area-->
     
-    <div class="content-area">
+    <div id="about" class="content-area">
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -125,6 +124,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row animated bounceInDown" data-id='4'>
+                            <div class="info-segment">
+                                <a href="./assets/documents/Michael Park CV.pdf" download="Michael Park CV">
+                                    <div class="col-xs-1">
+                                        <i class="fas fa-file-download info-icon"></i>
+                                    </div>
+                                    <div class="col-xs-11">
+                                        <p class="content-section">Download my CV here.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <img class="profile-img" src="assets/images/IMG_2166.jpg"></img>
@@ -136,7 +147,7 @@
     
 <!----------------Portfolio area-->
     
-    <div class="photo2 parallax">
+    <div id="portfolio" class="photo2 parallax">
         <div class="title-effect portfolio-title">
             <div class="title-animation">
                 Portfolio 
@@ -181,9 +192,9 @@
         </div>
     </div>
     
-<!----------------About area-->
+<!----------------Contact area-->
     
-    <div class="content-area">
+    <div id="contact" class="content-area">
         <div class="container">
             <div class="content">
                 <div class="container">
@@ -211,13 +222,13 @@
                                     <div class="email-form-area">
                                         <form>
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="from">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="from" required="true">
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+                                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject" required="true">
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" rows="5"></textarea>
+                                                <textarea class="form-control" rows="5" required="true"></textarea>
                                             </div>
                                             <button type="submit" class="btn btn-default">Send</button>
                                         </form>
