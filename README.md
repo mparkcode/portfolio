@@ -21,6 +21,10 @@ User requirements are met in the following ways:
 * The links on the portfolio segment are functioning.
 * Two of the four social media links link to the appropriate place.
 
+### Wireframing
+
+Wireframes were made using the pencil application and can be found in the wireframes folder
+
 ## Technologies Used
 * HTML
 * CSS
