@@ -15,6 +15,8 @@ The design is kept minimalist, primarily with a modern greyscale palette.
 What color exists on the page is used to make it feel iconic, for example the green of the macbook charger and the sepia tones on the polaroid images.  
 In keeping with the minimalist design the written segments on the page are kept short and to the point, so as not to overburden the user with too much information. 
 
+###No Template was used.  
+
 User requirements are met in the following ways:  
 * The navbar is fully functional and links to the different segments on the page.
 * The link for the downloadable cv is fully functional.
