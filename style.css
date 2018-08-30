@@ -312,6 +312,7 @@ textarea{
     .polaroid-writing{font-size: 10px; margin-bottom: 0; margin-top: 5px;}
     .portfolio-thumb{filter: None;}
     .project-info{display: none;}
+    .portfolio-heading{margin-top: 20px;}
     .portfolio-title{top: 30vh!important;}
     .p2{margin-top: 20vh;}
 }

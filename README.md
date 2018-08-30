@@ -48,6 +48,7 @@ Wireframes were made using the pencil application and can be found in the wirefr
 ## Testing
 The site was tested on 21" monitors, 15" and 13" laptop screens and on an iPhone SE and iPhone 8 screen to test responsiveness.  
 It was also tested using chrome, firefox and safari.  
+An issue was found on very small screen sizes (iPhone SE), where the background image on the title section and portfolio section would resize slightly. This was not an issue on larger mobile screens.  
 
 User testing was done to ensure:
 * All links work correctly.
@@ -55,7 +56,7 @@ User testing was done to ensure:
 * The cv downloads correctly.
 * The email form gives an error if a required field is not filled in.
 * The email input gives an error if an email is entered in an incorrect format.
-* The navbar links to the correct section of the site for the link clicked on.
+* The navbar links link to the correct section of the site for the link clicked on.
 * All hover and visited effects work correctly and as intended
 
 ## Deployment
