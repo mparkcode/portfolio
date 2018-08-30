@@ -30,8 +30,7 @@ Wireframes were made using the pencil application and can be found in the wirefr
 * CSS
 * Bootstrap
 * Font Awesome
-* CSS3 animate it library
-    * [This library was used to achive the animated dropdown in the about section](http://jackonthe.net/css3animateit/)
+
 
 ## Features
 
